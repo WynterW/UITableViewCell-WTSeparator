@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5C3E761F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5C3E751F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.m */; };
 		CAEC866C1F3EB80A00BD4498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC866B1F3EB80A00BD4498 /* main.m */; };
 		CAEC866F1F3EB80A00BD4498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC866E1F3EB80A00BD4498 /* AppDelegate.m */; };
 		CAEC86721F3EB80A00BD4498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEC86711F3EB80A00BD4498 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5C3E741F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WTSeparator.h"; sourceTree = "<group>"; };
+		CA5C3E751F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WTSeparator.m"; sourceTree = "<group>"; };
 		CAEC86671F3EB80A00BD4498 /* UITableViewCell+Separator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableViewCell+Separator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEC866B1F3EB80A00BD4498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAEC866D1F3EB80A00BD4498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA5C3E731F3EC4FB00D247B6 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA5C3E741F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.h */,
+				CA5C3E751F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.m */,
+			);
+			name = UITableViewCell;
+			path = ../../UITableViewCell;
+			sourceTree = "<group>";
+		};
 		CAEC865E1F3EB80A00BD4498 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		CAEC86691F3EB80A00BD4498 /* UITableViewCell+Separator */ = {
 			isa = PBXGroup;
 			children = (
+				CA5C3E731F3EC4FB00D247B6 /* UITableViewCell */,
 				CAEC866D1F3EB80A00BD4498 /* AppDelegate.h */,
 				CAEC866E1F3EB80A00BD4498 /* AppDelegate.m */,
 				CAEC86701F3EB80A00BD4498 /* ViewController.h */,
@@ -150,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5C3E761F3EC4FB00D247B6 /* UITableViewCell+WTSeparator.m in Sources */,
 				CAEC86721F3EB80A00BD4498 /* ViewController.m in Sources */,
 				CAEC866F1F3EB80A00BD4498 /* AppDelegate.m in Sources */,
 				CAEC866C1F3EB80A00BD4498 /* main.m in Sources */,
@@ -309,6 +324,7 @@
 				CAEC86801F3EB80A00BD4498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
